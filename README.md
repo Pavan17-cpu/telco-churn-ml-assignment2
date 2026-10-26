@@ -12,9 +12,9 @@ A telecom company loses revenue when customers cancel their subscription (churn)
 - **Preprocessing:** `customerID` dropped; `TotalCharges` converted to numeric (11 blank values for tenure-0 customers imputed with the median); numeric features standard-scaled; categorical features one-hot encoded; stratified 80/20 train/test split (`random_state=42`). All preprocessing is saved inside each model pipeline, so the app accepts raw test CSVs.
 
 ## c. GitHub Repository
-<https://github.com/USER/REPO>
+https://github.com/Pavan17-cpu/telco-churn-ml-assignment2
 
-Live app: <https://YOUR-APP.streamlit.app>
+Live app: https://telco-churn-mll.streamlit.app/
 
 ## d. Models Used
 
